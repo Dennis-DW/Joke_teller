@@ -1,9 +1,6 @@
 # Joke_teller
 A web application that fetches jokes from a joke API and then uses a Text-to-Speech (TTS) service to read the jokes aloud.
- ```
-# Joke Teller
-
-This simple joke-teller app fetches jokes from the Joke API and uses the VoiceRSS API to convert the text to speech.
+ 
 
 ### Code Explanation
 
@@ -18,10 +15,9 @@ The code is divided into three main parts:
 
 The HTML code defines the user interface of the app. It consists of a button that triggers the joke fetching process and an audio element that plays the joke.
 
-```html
+
 <button class="button">Tell me a joke</button>
 <audio id="audio"></audio>
-```
 
 #### CSS
 
